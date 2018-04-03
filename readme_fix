@@ -1,0 +1,9 @@
+Fixed issue when there are more then 150 psycical disks.
+
+Is works on the commandline but not in the Nagios check.
+
+Output when the check via Nagios is started gestart:
+ 
+line 481: 100 - ( ( * 100 ) / ) : syntax error: operand expected (error token is "* 100 ) / ) ")
+check_3par ERROR: ERROR Wrong command 'check_cap_ssd' .
+
